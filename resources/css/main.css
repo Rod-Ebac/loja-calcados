@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #4691f5;
+}
+
+#about img {
+    max-width: 400px;
+    margin-right: 24px;
+}
+
+@media screen and (min-width: 1024) {
+    header {
+        background-color: red;
+    }
+}
+
+@media screen and (min-width: 641) and (max-width: 1023) {
+    header {
+        background-color: yellow;
+    }
+}
+
+@media screen and (max-width: 640) {
+    header {
+        background-color: blue;
+    }
+}
